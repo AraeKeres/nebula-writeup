@@ -34,4 +34,4 @@ Success! We have solved level00.
 # Further Reading
 For a more detailed explanation of the command we used, we can use [explainshell.com](https://explainshell.com/explain?cmd=find+%2F+-user+flag00+-perm+%2Fu%3Ds+2%3E%2Fdev%2Fnull)
 
-For more explanation on the numeric and symbolic representations of permissions as well as special permissions see this article from RedHat: [Linux permissions: SUID, SGID, and sticky bit](https://www.redhat.com/sysadmin/suid-sgid-sticky-bit)
+For more explanation on the numeric and symbolic representations of permissions as well as special permissions see this article from Red Hat: [Linux permissions: SUID, SGID, and sticky bit](https://www.redhat.com/sysadmin/suid-sgid-sticky-bit)
