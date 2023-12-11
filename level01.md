@@ -24,7 +24,7 @@ You have successfully executed getflag on a target account
 
 Success! We have solved level01. So what happened here?
 
-First we set up our echo program by echoing "/bin/getflag" into a file named 'echo.' We then give it the execution permission using `chmod` to make it executable. The current contents of the PATH variable are backed up into `$tmp_path` just in case. PATH is set to be our home directory where we created our 'echo' script. Finally, we run the provided `flag01` program.
+First we set up our echo program by echoing "/bin/getflag" into a file named 'echo.' We then give it the execution permission using `chmod` to make it executable. The current contents of the PATH variable are backed up into `$tmp_path` just in case. PATH is set to be our home directory where we created our 'echo' script. Finally, we run the provided `flag01` program. When the program calls `echo` the systems looks for `echo` in the locations described by PATH where it finds `/home/level01/echo`. Since the `flag01` program has the setuid bit set it runs `getflag` as flag01.
 
 # Further Reading
 For more information on environment variables (including the PATH variable), see this article from Red Hat: [Linux environment variable tips and tricks](https://www.redhat.com/sysadmin/linux-environment-variables)
